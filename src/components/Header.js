@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import schriftzug from '../images/aufdhand-schriftzug.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span className="icon fa-diamond"></span>
-    </div>
+    <span className="logo">
+      <img src={schriftzug} width="300" alt="Aufd Hand"/>
+    </span>
     <div className="content">
       <div className="inner">
         <h1>Dimension</h1>

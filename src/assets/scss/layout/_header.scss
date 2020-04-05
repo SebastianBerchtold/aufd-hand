@@ -63,9 +63,9 @@
   }
 
   .logo {
-    width: 5.5rem;
-    height: 5.5rem;
-    line-height: 5.5rem;
+    width: 380px;
+    height: 140px;
+    line-height: 220px;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
@@ -218,9 +218,11 @@
     }
 
     .logo {
-      width: 4.75rem;
-      height: 4.75rem;
-      line-height: 4.75rem;
+    width: 380px;
+    height: 140px;
+    line-height: 220px;
+    border: solid _size(border-width) _palette(border);
+    border-radius: 100%;
 
       .icon {
         &:before {
