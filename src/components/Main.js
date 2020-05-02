@@ -1,11 +1,15 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+
+import SlideShow from "../components/slideshow"
 import logo_full from '../images/logo-full-weiß.png'
+import schornbad_video from '../images/schornbad/schornbad.mp4'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
-import SlideShow from "../components/slideshow"
+
+
 
 class Main extends React.Component {
   render() {
@@ -31,17 +35,14 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+          <h2 className="major">Schornbad</h2>
+	  <center><strong>Herzlich Willkommen an unserem kleinen Kiosk im „Schorni“</strong></center>
+	  <video controls className="main video">
+	    <source src={schornbad_video} type="video/mp4" />
+	  </video>
 
-	  Herzlich Willkommen an unserem kleinen Kiosk im „Schorni“
 	  <p align="center" style={{margin: "0.1rem"}}> Unser Schornbad, ein Platz zum Wohlfühlen, zum Ankommen. Ein Treffpunkt für Jung und Alt, für Menschen von nah und fern, frei von Etikette und Zwang. </p>
-
 	  <p align="center" style={{margin: "0.1rem"}}> Ein Ort für Begegnung, Austausch und Spaß.	   </p>
-
-
 
 
           {close}
