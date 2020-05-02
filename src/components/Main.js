@@ -66,7 +66,7 @@ class Main extends React.Component {
 	  <p align="center" style={{margin: "0.1rem"}}>
 	    <strong>
 	    Gerne stellen wir Euch ein individuelles Angebot zusammen!
-	    Meldet Euch! Alles weitere besprechen wir persönlich.
+	    <a href= "mailto:servus.aufd-hand@gmx.de"> Meldet Euch!</a> Alles weitere besprechen wir persönlich.
 	    </strong>
 	  </p>
 
