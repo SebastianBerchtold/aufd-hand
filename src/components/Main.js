@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import logo_full from '../images/logo-full-weiß.png'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
@@ -86,7 +87,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Kontakt</h2>
           <span className="image main">
-            {/* <img src={logo_full} alt="" /> */}
+            {<img src={logo_full} alt="" />}
           </span>
 
 <p style={{margin: "0.1rem"}}> Aufd Hand Catering und Schornbad, Pollner, Kiermeier GbR </p>
