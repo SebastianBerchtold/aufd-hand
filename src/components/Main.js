@@ -4,12 +4,6 @@ import React from 'react'
 import SlideShow from "../components/slideshow"
 import logo_full from '../images/logo-full-weiß.png'
 import schornbad_video from '../images/schornbad/schornbad.mp4'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-
-
-
 
 class Main extends React.Component {
   render() {
