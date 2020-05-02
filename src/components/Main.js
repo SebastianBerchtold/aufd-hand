@@ -4,6 +4,8 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
+import SlideShow from "../components/slideshow"
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -53,7 +55,7 @@ class Main extends React.Component {
         >
 
           <span className="image main">
-            {/* <SlideShow /> */}
+
           </span>
           <h2 className="major">Auf'd Hand Event Catering</h2>
 	  <p align="center" style={{margin: "0.1rem"}}> Ein Geburtstag steht an? </p>
@@ -69,7 +71,7 @@ class Main extends React.Component {
 	    <a href= "mailto:servus.aufd-hand@gmx.de"> Meldet Euch!</a> Alles weitere besprechen wir persönlich.
 	    </strong>
 	  </p>
-
+            {<SlideShow />}
 
 
           {close}
