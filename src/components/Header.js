@@ -11,7 +11,7 @@ const Header = props => (
     <div className="inner">
         <h1> Event Catering <br/> & Schornbad </h1>
         <h2>
-	  Berchtesgarden
+	  Berchtesgaden
         </h2>
       </div>
     </div>
