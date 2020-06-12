@@ -40,6 +40,13 @@ class Main extends React.Component {
 	  <p align="center" style={{margin: "0.1rem"}}> Ein Ort für Begegnung, Austausch und Spaß.	   </p>
 
 
+
+	<center><strong>	<a href="Speisekarte Kiosk Juni.pdf">Speisekarte</a></strong></center>
+	<center><strong>	<a href="Getränke Schornbad Juni-1.pdf">Getränkekarte</a></strong></center>
+	<center><strong>	<a href="Kaffespezilaitäten Biergarten.pdf">Kaffespezialitäten</a></strong></center>
+
+
+
           {close}
         </article>
 
