@@ -2,8 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import CookieConsent from 'react-cookie-consent';
 
 import '../assets/scss/main.scss'
+
+
 
 const Layout = ({ children, location }) => {
 
@@ -47,7 +50,17 @@ const Layout = ({ children, location }) => {
           >
             <html lang="de" />
           </Helmet>
+
+	  <CookieConsent
+            location="bottom"
+            buttonText="Accept"
+            declineButtonText="Decline"
+            cookieName="Youtube">
+	    This site uses cookies ...
+	  </CookieConsent>
+
           {content}
+
         </>
       )}
     />
