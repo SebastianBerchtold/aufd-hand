@@ -24,7 +24,7 @@ const Header = props => (
 	      <i class='fa fa-instagram'></i>
 
 	  <a href="https://www.instagram.com/aufdhand.berchtesgaden/?hl=de">
-		  Food Porn
+		  News
 	  </a>
 	  </h2>
       </div>
