@@ -56,7 +56,7 @@ const Layout = ({ children, location }) => {
             buttonText="Accept"
             declineButtonText="Decline"
             cookieName="NoCookie">
-	      Wir erheben keine Cookies, wir speichern keine Daten.
+	      Cookies gibts bei uns nur frisch aus dem Ofen, wir speichern nichts.
 	  </CookieConsent>
 
           {content}
