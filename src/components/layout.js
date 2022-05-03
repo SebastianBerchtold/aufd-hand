@@ -55,8 +55,8 @@ const Layout = ({ children, location }) => {
             location="bottom"
             buttonText="Accept"
             declineButtonText="Decline"
-            cookieName="Youtube">
-	    This site uses cookies ...
+            cookieName="NoCookie">
+	      Wir erheben keine Cookies, wir speichern keine Daten.
 	  </CookieConsent>
 
           {content}

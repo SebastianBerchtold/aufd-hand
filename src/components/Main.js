@@ -31,7 +31,6 @@ class Main extends React.Component {
         >
           <h2 className="major">Schornbad</h2>
 	<center><strong>Herzlich Willkommen an unserem kleinen Kiosk im „Schorni“</strong></center>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Iqfv7yqCE54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	  {/* <video controls className="main video">
 	    <source src={schornbad_video} type="video/mp4" />
 	  </video> */}
