@@ -40,9 +40,9 @@ class Main extends React.Component {
 
 
 
-	<center><strong>	<a href="Speisekarte Kiosk Juni.pdf">Speisekarte</a></strong></center>
-	<center><strong>	<a href="Getränke Schornbad Juni-1.pdf">Getränkekarte</a></strong></center>
-	<center><strong>	<a href="Kaffespezilaitäten Biergarten.pdf">Kaffespezialitäten</a></strong></center>
+	<center><strong>	<a href="https://www.dropbox.com/s/5wn83tyzrv2rykx/Speisekarte.docx?dl=1">Speisekarte</a></strong></center>
+	<center><strong>	<a href="Getränke Schornbad 2023.docx">Getränkekarte</a></strong></center>
+	<center><strong>	<a href="Kaffespezilaitäten 2023.docx">Kaffespezialitäten</a></strong></center>
 
 
 
