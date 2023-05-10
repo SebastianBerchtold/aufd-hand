@@ -10,7 +10,7 @@ const Header = props => (
       <div style={{margin: "1m 0  0 "}}>
 	  <h2>
 
-	      <a href="http://karte.aufd-hand.de">
+	      <a href="https://www.dropbox.com/s/5wn83tyzrv2rykx/Speisekarte.docx?dl=0">
 	      <b>
 		  Speis &amp; Trank
 		  &nbsp;&nbsp;
