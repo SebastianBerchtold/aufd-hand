@@ -3,7 +3,6 @@ import React from 'react'
 
 import SlideShow from "../components/slideshow"
 import logo_full from '../images/logo-full-weiß.png'
-// import schornbad_video from '../images/schornbad/schornbad.mp4'
 
 class Main extends React.Component {
   render() {
@@ -23,28 +22,18 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="schornbad"
-          className={`${this.props.article === 'schornbad' ? 'active' : ''} ${
+          id="food-truck"
+          className={`${this.props.article === 'food-truck' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Schornbad</h2>
-	<center><strong>Herzlich Willkommen an unserem kleinen Kiosk im „Schorni“</strong></center>
-	  {/* <video controls className="main video">
-	    <source src={schornbad_video} type="video/mp4" />
-	  </video> */}
-
-	     <p align="center" style={{margin: "0.1rem"}}> Unser <a href="https://www.koenigssee.de/schornbad">Schornbad</a>, ein Platz zum Wohlfühlen, zum Ankommen. Ein Treffpunkt für Jung und Alt, für Menschen von nah und fern, frei von Etikette und Zwang. </p>
-	  <p align="center" style={{margin: "0.1rem"}}> Ein Ort für Begegnung, Austausch und Spaß.	   </p>
-
-
-
-	<center><strong>	<a href="https://www.dropbox.com/s/5wn83tyzrv2rykx/Speisekarte.docx?dl=1">Speisekarte</a></strong></center>
-	<center><strong>	<a href="Getränke Schornbad 2023.docx">Getränkekarte</a></strong></center>
-	<center><strong>	<a href="Kaffespezilaitäten 2023.docx">Kaffespezialitäten</a></strong></center>
-
-
+          <h2 className="major">Food Truck</h2>
+	<center><strong>We're rolling for you</strong></center>
+		    <p align="center" style={{margin: "0.1rem"}}> ... mit unseren hausgemachten Spezialitäten im Gepäck.</p>
+		    <p align="center" style={{margin: "0.1rem"}}> Parkbank, Firmenhof oder Festival. </p>
+		    <p align="center" style={{margin: "0.1rem"}}> Streetfood Feeling auch an eurem Lieblingsplatz! </p>
+		    <p align="center" style={{margin: "0.1rem"}}><a href= "mailto:servus.aufd-hand@gmx.de"> Meldet Euch!</a></p>
 
           {close}
         </article>
@@ -99,7 +88,7 @@ class Main extends React.Component {
 <p style={{margin: "0.1rem"}}> 	    83471 Schönau a. Königssee</p>
 <p style={{margin: "0.1rem"}}> 	    Email: servus.aufd-hand@gmx.de</p>
 <p style={{margin: "0.1rem"}}> 	    mobil Gerald:  +49 176 327 629 28</p>
-<p style={{margin: "0.1rem"}}> 	    	    mobil Michael: +49 176 226 819 19</p>
+<p style={{margin: "0.1rem"}}> 	    mobil Michael: +49 176 226 819 19</p>
 
           {close}
         </article>

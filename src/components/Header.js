@@ -9,18 +9,6 @@ const Header = props => (
     </span>
       <div style={{margin: "1m 0  0 "}}>
 	  <h2>
-
-	      <a href="https://www.dropbox.com/s/5wn83tyzrv2rykx/Speisekarte.docx?dl=0">
-	      <b>
-		  Speis &amp; Trank
-		  &nbsp;&nbsp;
-		  &nbsp;&nbsp;
-		  &nbsp;&nbsp;
-		  &nbsp;&nbsp;
-
-	      </b>
-	  </a>
-
 	      <i class='fa fa-instagram'></i>
 
 	  <a href="https://www.instagram.com/aufdhand.berchtesgaden/?hl=de">
@@ -30,7 +18,7 @@ const Header = props => (
       </div>
     <div className="content">
 	<div className="inner">
-        <h1> Event Catering <br/> & Schornbad </h1>
+        <h1> Event Catering <br/> & Food Truck </h1>
         <h2>
 	  Berchtesgaden
         </h2>
@@ -41,10 +29,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('schornbad')
+              props.onOpenArticle('food-truck')
             }}
           >
-            Schornbad
+            Food Truck
           </button>
         </li>
         <li>
