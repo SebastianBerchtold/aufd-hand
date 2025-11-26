@@ -57,6 +57,7 @@ const Layout = ({ children, location }) => {
             declineButtonText="Decline"
             cookieName="NoCookie">
 	      Cookies gibts bei uns nur frisch aus dem Ofen, wir speichern nichts.
+	      Der Webhoster evtl. schon.
 	  </CookieConsent>
 
           {content}
