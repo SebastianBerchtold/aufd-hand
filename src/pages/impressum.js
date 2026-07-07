@@ -9,7 +9,7 @@ const SecondPage = () => (
 
 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
 <p>Aufd Hand Catering und Kiosk, Pollner und Kiermeier GbR<br />
-Schornstr. 7<br />
+Malerweg 1<br />
 83471 Sch&ouml;nau a. K&ouml;nigssee</p>
 
 <p><strong>Vertreten durch:</strong><br />
