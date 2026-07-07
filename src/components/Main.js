@@ -84,7 +84,7 @@ class Main extends React.Component {
 <p style={{margin: "0.1rem"}}> Auf'd Hand Catering und Kiosk, Pollner, Kiermeier GbR </p>
 <p style={{margin: "0.1rem"}}>	    Michael Pollner / Gerald Kiermeier </p>
 <p style={{margin: "0.0rem"}}> 	    gepr. Küchenmeister</p>
-<p style={{margin: "0.0rem"}}> 	    Schornstraße 7</p>
+<p style={{margin: "0.0rem"}}> 	    Malerweg 1</p>
 <p style={{margin: "0.1rem"}}> 	    83471 Schönau a. Königssee</p>
 <p style={{margin: "0.1rem"}}> 	    Email: servus.aufd-hand@gmx.de</p>
 <p style={{margin: "0.1rem"}}> 	    mobil Gerald:  +49 176 327 629 28</p>

@@ -26,7 +26,7 @@ DE328876769</p>
 
 <h2>Redaktionell Verantwortlicher</h2>
 <p>Gerald Kiermeier / Michael Josef Pollner<br />
-Schornstra&szlig;e 7<br />
+Malerweg 1<br />
 83471 Sch&ouml;nau a. K&ouml;nigssee</p>
 
 
